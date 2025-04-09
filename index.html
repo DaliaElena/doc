@@ -19,6 +19,24 @@
       background-color: var(--light-gray);
       color: var(--dark-gray);
     }
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  font-size: 30px;
+  padding: 15px 18px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.1);
+}
 
     header {
       background-color: var(--leaf-green);
@@ -193,6 +211,12 @@
       <div class="mensaje-exito" id="respuesta">Mensaje enviado con éxito.</div>
     </form>
   </section>
+<a href="https://wa.me/521555540222020?text=Hola%20Dr.%20Jorge Ayluardo,%20me%20gustaría%20agendar%20una%20consulta." 
+   class="whatsapp-button" 
+   target="_blank" 
+   aria-label="Chatea por WhatsApp con el Dr. Jorge">
+  💬
+</a>
 
 
 
